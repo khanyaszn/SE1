@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RealHome</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>REAL HOME</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contacts</a>
+    </nav>
+
+  </header>
+ <!-- the various households-->
+  <main>
+    <section class="property-listings">
+      <div class="property-card">
+        <p>A brief description about this website is about that it's a real estate website where one can enquire about finding a home of tehir choice within a touch of a button</p>
+        <button class="favorite-btn" onclick="addToFavorites('5 Bedroom, 3 Bath Modern Home')"> ABOUT US AT REAL HOME</button>
+      </div>
+
+    <section class="property-listings" id="property-listings">
+    <!-- Property cards remain unchanged -->
+  </section>
+
+  </main>
+  <!-- Link JavaScript -->
+ <script src="script.js"></script> 
+</body>
+</html>
